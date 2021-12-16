@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Your title for this page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--Style code for some sections-->
+  <style>
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 28px;
+      text-align: center;
+      display: inline-block;
+      font-size: 12px;
+      margin: 2px 1px;
+      cursor: pointer;
+    }
+
+    .aclass {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 15px;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    .container {
+      width: 100%;
+      background-color: #ddd;
+    }
+
+    .skills {
+      text-align: right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+    }
+
+    .html {
+      width: 90%;
+      background-color: #04AA6D;
+    }
+
+    .css {
+      width: 80%;
+      background-color: #2196F3;
+    }
+
+    .js {
+      width: 65%;
+      background-color: #f44336;
+    }
+
+    .php {
+      width: 60%;
+      background-color: #808080;
+    }
+
+    .checked {
+      color: black;
+    }
+
+    .fablack {
+      color: rgb(107, 69, 69);
+    }
+
+    .centertext {
+      text-align: center;
+    }
+
+    .nav-linkwhite {
+      color: white
+    }
+
+    .align-items {
+      align-items: flex-end;
+
+    }
+
+    .smallText {
+      font-size: 11px;
+      color: black;
+      text-decoration-line: unset;
+      font-family: monospace;
+    }
+
+    .textsizeemploys {
+      font-size: 13px;
+    }
+
+    .mtext {
+      font-size: 13px;
+      color: black;
+      text-decoration-line: unset;
+      font-family: monospace;
+    }
+  </style>
+</head>
+
+<body>
+<!--Usage below section in nav-bar you can add more subpages and refer to your social networks-->
+  <div class="container">
+    <div class="main-body">
+      <div class="card text-center">
+        <div class="card-header">
+          <nav class="navbar navbar-expand-sm background-color: white">
+            <div class="container-fluid">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="./aSubpage.html">title for your subpage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./subpage.html">the other title for your subpage</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="moresubpagesXD.html">the other title for your subpage</a>
+                </li>
+
+              </ul>
+
+              <!--Input your links for your social networks-->
+
+                <div class="align-items-right">
+                <a href="https://github.com/">
+                  <li class="d-flex">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                        stroke="currentColor" stroke-width="2" class="feather-github ">
+                       
+                         <!--DONT TOUCH TAGS <PATH>, THIS IS USED FOR DRAW THE GITHUB AND TWITTER ICONS-->
+
+                        <path
+                          d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                      </svg>Github</h6>
+                  </li>
+                </a>
+
+                <a href="https://twitter.com/">
+                  <li class="d-flex">
+                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                        stroke="currentColor" stroke-width="2" class="feather-twitter  text-info">
+                        
+                         <!--DONT TOUCH TAGS <PATH>, THIS IS USED FOR DRAW THE GITHUB AND TWITTER ICONS-->
+
+                        <path
+                          d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                        </path>
+                      </svg>Twitter</h6>
+                  </li>
+                </a>
+              </div>
+
+            </div>
+          </nav>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">        <!-- Erase this comment and INPUT your name here-->          </h5>
+          <p class="card-text"><!--Erase this comment and input your JOB title--></p>
+        </div>
+        <hr>
+        <h4 class="card-text">Profile</h4>
+        <h8><!--Erase this comment and input one or two simple lines briefly describing you--></h8>
+        <hr>
+
+        <div class="row gutters-sm">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex flex-column  text-center">
+                  <div class="mt-3">
+                    <h6><!--Add you maximum degree of studies--></h6>
+                    <h7><!--optional you can add your field of study--></h7>
+
+
+
+                    <!--if you want can add a button Whatsapp for contact you-->
+                    <!--  <button class="btn btn-outline-primary"><a class="aclass"
+                          href="https://api.whatsapp.com/send?phone=3325141576">Whatsapp</a>
+                      </button> -->
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-3">
+              <ul class="list-group list-group-flush">
+                <link rel="stylesheet"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+                  <!--Add contact info-->
+                <hr>
+                <h6>Details</h6>
+                <h8>
+                  <h6>Email:</h6> some@outlook.com
+                </h8>
+                <h8>
+                  <h6>Phone:</h6> (+59) 0123456789
+                </h8>
+
+
+                <hr>
+
+
+                <!--You can add or delete skills easy use fa for add points in each skills and use fablack for decrese points-->
+                <hr>
+                <h6>Skills</h6>
+                <hr>
+
+                <h8>Bootstrap</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fablack fa-star">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+
+                <h8>Postman</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fa fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+
+                <h8>Android studio</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fablack fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+
+                <h8>VS code</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fablack fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+
+
+                <h8>Python</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fablack fa-star">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+
+                <h8>Javascript</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fablack fa-star">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+
+                <h8>Power Apps</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fa fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+                <h8>Firebase</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fa fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+                <h8>Google Cloud</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fa fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+                <h8>NodeJS</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fa fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+                <h8>Virtual Machines Cloud Azure</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fablack fa-star checked">
+                              <span class="fablack fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+                <h8>Servers Azure for PostgreSQL</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fablack fa-star checked">
+                              <span class="fablack fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+
+                <h8>App services Azure</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fablack fa-star checked">
+                              <span class="fablack fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+                <h8>NodeJS</h8>
+                <span class="fa fa-star checked">
+                  <span class="fa fa-star checked">
+                    <span class="fa fa-star checked">
+                      <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                          <span class="fa fa-star checked">
+                            <span class="fa fa-star checked">
+                              <span class="fa fa-star checked">
+                                <span class="fablack fa-star">
+                                  <span
+                                    class="fablack fa-star"></span></span></span></span></span></span></span></span></span></span>
+
+
+                                    
+                <!--Section for Hobbies-->
+
+                <hr>
+                <h6>Hobbies</h6>
+                <hr>
+                <h8>an hobbie</h8>
+                <h8>other hobbie</h8>
+                <h8>...other hobbie</h8>
+                <h8>and other hobbie</h8>
+                <h8>many hobbies don't you think?</h8>
+
+
+            </div>
+          </div>
+
+
+<!--title for Employment history-->
+          <div class="col-md-8">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="row">
+                    <h6>Employment history</h6>
+                  </div>
+                </div>
+                <hr>
+              <!--the below section described you experience if you want add more jobs just copy and paste this section div-->
+
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h6 class="mb-0">External Consultant *Confidentiality contractual clause<!--Company-->
+                      <br><a class="mtext">Operations Engineer  <!--Puesto-->
+                      
+                      </a>
+                    </h6><br>
+                    <a class="smallText">Mar 2021 - September 2021</a><!--start and end date-->
+                    
+                  </div>
+                  <div class="col-sm-9 text-secondary">
+                    <!--description of your main tasks-->
+                    I am a description, did I impress you?
+                  </div>
+                </div>
+
+
+                <!--End section single job, I recommend you add at least 2-->
+                <hr>
+
+
+                <!--Education-->
+                <div class="row">
+                  <div class="row">
+                    <h6>Education</h6>
+                  </div>
+                </div>
+                <hr>
+
+                <!--copy and paste this section for add others degrees-->
+                <div class="row">
+                  <div class="col-sm-3">
+                    <h6 class="mb-0">Centro Universitario de Ciencias Exactas e Ingenierias (UDG)<!--School or Campus-->
+                      <br><a class="mtext">Degree in Chemistry    <!--Degree--> </a>
+                    </h6><br>
+                    <a class="smallText">Jan 2014 - Nov 2019</a><!--start and end date-->
+                  </div>
+                  <div class="col-sm-9 text-secondary">
+                    <!--Description-->
+                    I am a description, did I impress you?
+                  </div>
+                </div>
+                <hr>
+
+                <!--Add certificates of your curses of interest-->
+                <div class="row">
+                  <div class="row">
+                    <h6>Certifications</h6>
+                  </div>
+                </div>
+                <hr>
+                <h7>certificate, dates and location for curse 1</h7><br>
+                <h7>certificate, dates and location for curse n + 1</h7><br>
+                <h7>certificate, dates and location for curse n" + 1</h7><br>
+            </div>
+            </ul>
+
+            <!--DIV principal end-->
+
+          </div>
+
+
+</body>
+
+</html>
